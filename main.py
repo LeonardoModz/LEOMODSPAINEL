@@ -22,7 +22,7 @@ result = os.popen('figlet MID-PAINEL').read()
 
 os.system('clear')
 
-print(f'Painel de Consultas básicas by Dr Midnight')
+print(f'PAINEL DE CONSULTAS BY LEO MODS OFC')
 
 
 def clear():
@@ -36,15 +36,15 @@ try:
     import requests, random, json, phonenumbers
 except:
     install = input(
-        f'{Twhite}{Dgreen}[i]{Twhite} Ola! Vejo que esta é sua primeira vez aqui...'
-        f'\nDeseja instalar o software necessário?\n1-Sim\n2-Não\n_').strip().upper()[0]
+        f'{Twhite}{Dgreen}[i]{Twhite} OLA! VEJO QUE ESTA É SUA PRIMEIRA VEZ AQUI...'
+        f'\NDESEJA INSTALAR O SOFTWARE NECESSÁRIO?\n1-SIM\n2-NÃO\n_').strip().upper()[0]
     if install == 'S' or install == '1':
         os.system("apt install figlet -y")
         os.system('python3 -m pip install --upgrade pip')
         os.system('pip3 install requests pytube phonenumbers netifaces')
         clear()
     else:
-        print(f'Ok... Tente realizar a instalação manual ou Adeus');
+        print(f'Ok... TENTE REALIZAR A INSTALAÇÃO MANUAL OU ADEUS');
         exit()
     restart()
 
@@ -57,7 +57,7 @@ except Exception as error:
 
 def dialog(text='', tiled='='):
     clear();
-    print(os.popen('figlet MID-PAINEL').read())
+    print(os.popen('figlet LEOMODS-PAINEL').read())
     text = text.split('\n')
     maior = 0
     for txt in text:
@@ -72,7 +72,7 @@ def dialog(text='', tiled='='):
 
 def error_dialog(text='', tiled='='):
     clear();
-    print(os.popen('figlet MID-PAINEL').read())
+    print(os.popen('figlet LEOMODS-PAINEL').read())
     text = text.split('\n')
     maior = 0
     for txt in text:
@@ -90,19 +90,19 @@ requests = requests.Session();result = os.popen('figlet MID-PAINEL').read()
 
 try:
     if __name__ == '__main__':
-        dialog('Buscando atualizações ...')
+        dialog('BUSCANDO ATUALIZAÇÕES ...')
         update = subprocess.check_output('git pull', shell=True)
         if 'Already up to date' not in update.decode():
-            dialog('Atualização instalada.\nReiniciando o painel.')
+            dialog('ATUALIZAÇÃO INSTALADA.\nREINICIANDO O PAINEL.')
             restart()
         else:
-            print(f'{Twhite}[{Nyellow}i{Twhite}] Nenhuma atualização disponivel.')
+            print(f'{Twhite}[{Nyellow}i{Twhite}] NENHUMA ATUALIZAÇÃO DISPONIVEL.')
             time.sleep(2)
 except:
     if os.path.exists('.git'):
         pass
     else:
-        error_dialog('Falta de repositório GIT local')
+        error_dialog('FALTA DE REPOSITÓRIO GIT LOCAL')
 
 try:
     subprocess.check_output('apt update -y', shell=True)
@@ -114,9 +114,9 @@ Sair = False
 while Sair == False:
     try:
         banner.menu()
-        opc = int(input(f'{Dgreen}Digite o numero da opção que deseja: \n>>> '))
+        opc = int(input(f'{Dgreen}DIGITE O NUMERO DA OPÇÃO QUE DESEJA: \n>>> '))
     except:
-        error_dialog('Caracteres não reconhecidos');
+        error_dialog('CARACTERES NÃO RECONHECIDOS');
         op = None
     clear()
 
@@ -140,15 +140,15 @@ while Sair == False:
         root.consultar()
     elif opc == 10:   # Atualizar painel
         os.popen('cd database && bash update.sh');
-        dialog('Reiniciando o painel...');
+        dialog('REINICIANDO O PAINEL...');
         restart()
     elif opc == 11:  # Sair
         Sair = True
     elif opc == 12:  # Criador
-        os.system('termux-open-url https://wa.me/5512988789266')
+        os.system('termux-open-url https://t.me/LEOMODZOFC')
     elif opc == 13:  # Grupo
-        os.system('termux-open-url https://discord.gg/kgXhZzGJDY')
+        os.system('termux-open-url https://t.me/LEOMODZOFC')
     elif opc == None:
         pass
     else:
-        error_dialog('Opção incorreta')
+        error_dialog('OPÇÃO INCORRETA')
