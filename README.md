@@ -2,99 +2,51 @@
 "<p align="center" ><img src="https://i.ibb.co/Y73M72Z/README-ASCII.png" alt="README-ASCII" border="0">
 </p>
 
-<h1 align="center">Mid-Painel (BETA)</h1>
+<h1 align="center">LEO MKDS PAINEL CONSULTAS</h1>
 
   <p align="center">
-    Este painel de consulta tem o objetivo de retornar dados pessoais através do Nome, Número ou CPF. De forma que não precise pagar por isso.
+    ESTE PAINEL DE CONSULTA TEM O OBJETIVO DE RETORNAR DADOS PESSOAIS ATRAVÉS DO NOme, NÚMERO OU CPF. DE FORMA ANÔNIMA
   </p>
 </p> 
 
 
 <p align="center">
-  <a href="https://github.com/MidD3Vil/MidD3Vil">About Me</a> •
-  <a href="https://github.com/login?return_to=https%3A%2F%2Fgithub.com%2FMidD3Vil">Follow Me :D</a> •
-  <a href="https://github.com/MidD3Vil">Author</a>
+  <a href="https://github.com/LeonardoModz">CRIADOR</a>
 </p>
 
-<h3><p align="center">Version: 2.1 Beta</p></h3>
+<h3><p align="center">VERSÃO BETA</p></h3>
  
-<h2 align="center">🙈  Novidades:</h2>
+<h2 align="center">🙈  NOVIDADES:</h2>
 
-* `16/09` A opção **Consulta CPF** já está disponível.
-* `22/10` Devido a problemas de **API** A opção **Consulta CPF** foi removida temporariamente
-* `01/12` A opção **Consulta Nome** já está disponível.
+* `16/09` A OPÇÃO **CONSULTA CPF** JÁ ESTÁ DISPONÍVEL.
+* `22/10` DEVIDO A PROBLEMAS DE **API** A OPÇÃO **CONSULTA CPF** FOI REMOVIDA TEMPORARIAMENTE
+* `01/12` A OPÇÃO **CONSULTA NOME** JÁ ESTÁ DISPONÍVEL.
  
-<h2 align="center">📆  Features</h2>
+<h2 align="center">📆  FUNÇÕES DO PAINEL</h2>
+- [x] CONSULTA DE CEP
+- [x] CONSULTA DE CNPJ
+- [ ] CONSULTA DE CRM
+- [ ] CONSULTA DE CNS
+- [x] CONSULTA DE CPF
+- [ ] CONSULTA DE BIN
+- [x] CONSULTA DE NOME
+- [x] CONSULTA DE NOME DA MÃE
+- [ ] CONSULTA DE NÚMERO
+- [ ] CONSULTA DE EMAIL
+- [x] CONSULTA DE PLACA
+- [x] Geolocalizador De Ip
 
-Todos os que estão marcados já se encontram presente no **MidPainel** funcionando. 
-Os que não estão, é porque ainda estão em desenvolvimento...
-
-- [x] Consulta de CEP
-- [x] Consulta de CNPJ
-- [ ] Consulta de CRM
-- [ ] Consulta de CNS
-- [x] Consulta de CPF
-- [ ] Consulta de BIN
-- [x] Consulta de Nome
-- [x] Consulta de Nome da mãe
-- [ ] Consulta de Número
-- [ ] Consulta de Email
-- [x] Consulta de Placa
-- [x] Geolocalizador de IP
-
-Além disto o **MidPainel** também contém um menu de Ferramentas Adicionais...
+ALÉM DISTO O **LEO MODS PAINEL** TAMBÉM CONTÉM UM MENU DE FERRAMENTAS ADICIONAIS
 
 - [x] Root Checker
 - [x] Meu IP
 - [x] Covid Info
 
-<h2 align="center">🖥 Install</h2>
-
-Para você executar o **Painel** é nescessario ter o python instalado... Para isso você pode baixar no site oficial do python clicando [**Aqui!**](https://www.python.org/downloads/)
-
-Depois de baixar e instalar o python você pode baixar o **MidPainel** diretamente do github com os seguintes comandos:
 
 ```
-💻 Termux
-$ pkg upgrade -y && pkg update -y
-$ pkg install git python figlet -y
-$ git clone https://github.com/MidD3Vil/MidPainel
-$ cd MidPainel
-$ python3 main.py
-
-💻 Debian
-$ apt upgrade -y && apt update -y
-$ apt install git python figlet -y
-$ git clone https://github.com/MidD3Vil/MidPainel
-$ cd MidPainel
-$ python3 main.py
-
-💻Arch Linux
-$ pacman -Syyu git python figlet -y
-$ git clone https://github.com/MidD3Vil/MidPainel
-$ cd MidPainel
-$ python3 main.py
-
-
-💻OpenSUSE
-$ zypper install python git figlet -y
-$ git clone https://github.com/MidD3Vil/MidPainel
-$ cd MidPainel
-$ python3 main.py
-```
-
-<h2 align="center">🙏  Créditos:</h2>
-
-| Autor          | Ajuda         | Git
-|:--------------:|:-------------:|:-----------------------------------:|
-| Crowley        | API - CPF     | https://github.com/Crowley-Dev      |
-| termuxuser     | API - Nome    | https://github.com/termuxuser123465 |
-
-
-
- <h2 align="center">📢 Help</h2>
- >>> **Este painel esta sendo disponibilizado 100% gratuitamente... As API não são fáceis de encontrar.** <<<
- 
- >>> *Portanto se você (Dev) quiser contribuir para o painel se manter ativo, toda ajuda será bem vinda!* <<<
-
- >>> 👾 TKSS 
+💻 INSTALAÇÃO NO TERMUX
+pkg upgrade -y && pkg update -y
+pkg install git python figlet -y
+git clone https://github.com/LeonardoModz/LEOMODSPAINEL
+cd LEOMODSPAINEL
+python3 main.py
