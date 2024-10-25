@@ -2,7 +2,7 @@
 "<p align="center" ><img src="https://i.ibb.co/Y73M72Z/README-ASCII.png" alt="README-ASCII" border="0">
 </p>
 
-<h1 align="center">LEO MKDS PAINEL CONSULTAS</h1>
+<h1 align="center">LEO MODS PAINEL CONSULTAS</h1>
 
   <p align="center">
     ESTE PAINEL DE CONSULTA TEM O OBJETIVO DE RETORNAR DADOS PESSOAIS ATRAVÉS DO NOme, NÚMERO OU CPF. DE FORMA ANÔNIMA
