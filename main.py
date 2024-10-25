@@ -36,15 +36,15 @@ try:
     import requests, random, json, phonenumbers
 except:
     install = input(
-        f'{Twhite}{Dgreen}[i]{Twhite} OLA! VEJO QUE ESTA É SUA PRIMEIRA VEZ AQUI...'
-        f'\NDESEJA INSTALAR O SOFTWARE NECESSÁRIO?\n1-SIM\n2-NÃO\n_').strip().upper()[0]
+         f'{Twhite}{Dgreen}[i]{Twhite} Ola! Vejo que esta é sua primeira vez aqui...'
+        f'\nDeseja instalar o software necessário?\n1-Sim\n2-Não\n_').strip().upper()[0]
     if install == 'S' or install == '1':
         os.system("apt install figlet -y")
         os.system('python3 -m pip install --upgrade pip')
         os.system('pip3 install requests pytube phonenumbers netifaces')
         clear()
     else:
-        print(f'Ok... TENTE REALIZAR A INSTALAÇÃO MANUAL OU ADEUS');
+        print(f'Ok... Tente realizar a instalação manual ou Adeus');
         exit()
     restart()
 
